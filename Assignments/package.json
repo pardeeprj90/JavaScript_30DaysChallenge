@@ -11,5 +11,8 @@
   "dependencies": {
     "cypress": "^10.11.0",
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
   }
 }
