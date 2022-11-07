@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.11.0",
+    "cypress-real-events": "^1.7.2",
     "prompt-sync": "^4.2.0"
   },
   "devDependencies": {

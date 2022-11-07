@@ -1,0 +1,10 @@
+{
+    "email":"ineuron@ineuron.ai",
+    "password":"ineuron",
+    "courseName":"PK_Test_Course",
+    "courseDescription":"Dummy Course Description",
+    "instructorName":"Pardeep Kumar",
+    "courseStartDate":"12/11/2022",
+    "courseEndDate":"12/12/2022",
+    "courseCategory":"Testing"
+}

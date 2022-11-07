@@ -25,3 +25,5 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 /// <reference types="cypress" />
+// Real Hover events handling
+import "cypress-real-events/support";
