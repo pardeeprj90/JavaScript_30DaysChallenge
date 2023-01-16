@@ -3,7 +3,7 @@ Array is collection of order elements
 */
 
 let fruits = ['Apple','Grapes','Manggo']
-// console.log(fruits)
+console.log(fruits)
 // fruits.push("Cherry")
 // console.log(fruits)
 // fruits.pop()
