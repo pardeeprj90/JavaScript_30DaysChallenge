@@ -12,14 +12,13 @@ function callMe() {
 // passing function as an argument
 // greet('Pardeep', callMe);
 
-function modifyArr(arr,arrValue, abc)
+function modifyArr(arr,arrValue, callbackFunc)
 {
     arr.push(arrValue)
-    abc()
+    console.log(`new value after adding new element to Array ${arr}`)
+    callbackFunc()
 }
 var arr=[1,45,67]
 var valToAdd = 100
 
-modifyArr(arr,valToAdd,function(){
-    console.log(`new array value after pushing new value`,{valToAdd},{arr})
-})
+modifyArr(arr,valToAdd,callMe)
